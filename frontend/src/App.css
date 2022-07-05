@@ -1,0 +1,178 @@
+.App {
+    text-align: center;
+}
+
+/* Header */
+.nav-ui {
+    background-color: cadetblue;
+    margin: 0px;
+    padding: 16px 0px;
+}
+
+.nav-ui li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-ui li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+.nav-ui li a:hover {
+    text-decoration: underline;
+    color: white;
+    padding: 5px 5px;
+}
+
+/* Footer */
+.footer-container {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Forms */
+.form-base {
+    display: inline-block;
+    max-width: fit-content;
+    padding: 30px 30px;
+    margin-top: 5px;
+}
+
+.input-box {
+    display: block;
+    border-radius: 5px;
+    border: 2px solid cadetblue;
+    padding: 5px 10px;
+    min-width: 250px;
+    min-height: 30px;
+    margin: 30px 0px;
+}
+
+.form-button-container {
+    display: flex;
+    margin: 30px 0px;
+}
+
+/* List and Tables*/
+.product-list ul {
+    margin: 0px;
+}
+.product-list li {
+    display: inline-block;
+    border: 2px solid cadetblue;
+    min-width: 150px;
+    padding: 2px 2px;
+}
+
+.product-list-table {
+    margin: 0px auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 2px solid cadetblue;
+}
+
+.product-list-table tr th {
+    background-color: cadetblue;
+    padding: 4px 0px;
+}
+
+.product-list-table tr td {
+    border: 0px 0px 2px 0px solid black;
+    padding: 2px 0px;
+    border: 1px solid cadetblue;
+}
+
+/* buttons */
+.btn-solid {
+    display: block;
+    border-radius: 5px;
+    border: 2px solid cadetblue;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    width: 100%;
+    color: white;
+}
+
+.btn-solid:hover {
+    background-color: rgb(115, 184, 186);
+}
+.btn-solid:active {
+    background-color: rgb(42, 92, 94);
+}
+
+.btn-solid-operation {
+    text-decoration: none;
+    display: inline;
+    border-radius: 5px;
+    border: 2px solid cadetblue;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.btn-solid-operation:hover {
+    background-color: rgb(115, 184, 186);
+}
+.btn-solid-operation:active {
+    background-color: rgb(42, 92, 94);
+}
+
+.btn-no-fill {
+    background-color: rgba(95, 158, 160, 0);
+    color: cadetblue;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid cadetblue;
+    margin: 5px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.btn-no-fill:hover {
+    background-color: rgb(175, 219, 221);
+    color: white;
+}
+
+.btn-no-fill:active {
+    background-color: rgb(95, 149, 150);
+    color: white;
+}
+
+/* Utility */
+.centre-container {
+    margin: auto auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Error */
+.form-error {
+    color: rgb(245, 95, 95);
+    margin: -30px 0px -15px 0px;
+    text-align: left;
+    padding: 0px 5px;
+    font-size: small;
+}
+
+/* Individuals */
+.search-box {
+    padding: 10px;
+    min-width: 300px;
+    width: 50%;
+    margin: 10px 0px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+}
